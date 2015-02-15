@@ -1,0 +1,9 @@
+note:
+运行该程序的机器需要安装Boost、MYSQL C API、java、hadoop、hive,并配置环境变量
+
+将以下添加到环境脚本之一(/etc/profile,~/.bashrc等等)
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$JAVA_HOME/jre/lib/amd64/server:$HADOOP_HOME/lib/native/Linux-amd64-64
+for file in `ls $HADOOP_HOME/lib/*.jar`; do export CLASSPATH=$CLASSPATH:$file; done
+#for file in `ls $JAVA_HOME/lib/*.jar`; do export CLASSPATH=$CLASSPATH:$file; done
+#for file in `ls $JAVA_HOME/jre/lib/*.jar`; do export CLASSPATH=$CLASSPATH:$file; done
+export CLASSPATH=$CLASSPATH:$HADOOP_HOME/hadoop-core-1.1.2.jar:$HADOOP_HOME/conf

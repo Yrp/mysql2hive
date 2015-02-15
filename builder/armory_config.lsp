@@ -1,0 +1,5 @@
+(env "NEWLISP_ARMORY_HOME" "./armory")
+(set 'armory-folder (env "NEWLISP_ARMORY_HOME"))
+(println (append "newlisp armory home folder: " armory-folder))
+(load (append armory-folder "/codes/file/file.lsp"))
+(file:init)

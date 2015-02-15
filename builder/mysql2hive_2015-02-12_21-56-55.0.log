@@ -1,0 +1,107 @@
+[2015-02-12 21:56:55] [0x00007f2987515780] [info]    the 0th loadManager startup.
+[2015-02-12 21:56:55] [0x00007f2987515780] [info]    Initialize tableloader...
+[2015-02-12 21:56:55] [0x00007f2987515780] [error]     [file:../src/fileutil.cpp,line:174] Stat failed.(./.done)
+[2015-02-12 21:56:55] [0x00007f2987515780] [error]     [file:../src/fileutil.cpp,line:174] Stat failed.(./.undone)
+[2015-02-12 21:56:55] [0x00007f2987515780] [info]    Initializing MySql connect...
+[2015-02-12 21:56:55] [0x00007f2987515780] [info]    Succeeded to initialize MySql connect.
+[2015-02-12 21:56:55] [0x00007f2987515780] [info]    Succeeded to connect to database.(host:117.121.54.245,port:3435,user:letvjdatacluster,password:letvjdatacluster,db:jdatawebold.)
+[2015-02-12 21:56:55] [0x00007f2987515780] [info]    Query Succeeded.(select A.writer,B.tname from jdata_dmc_cluster A, jdata_dmc_tables B where A.cid = B.cid)
+[2015-02-12 21:56:56] [0x00007f2987515780] [info]    The following tables will be  handled(amount:84).
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102600
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102601
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102602
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102603
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102604
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102605
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102606
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102607
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102608
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102609
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102610
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102611
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102612
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102613
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102614
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102615
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102616
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102617
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102618
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102619
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102620
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102621
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102622
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102623
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102700
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102701
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102702
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102703
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102704
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102705
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102706
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102707
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102708
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102709
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102710
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102711
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102712
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102713
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102714
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102715
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102716
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102717
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102718
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102719
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102720
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102721
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102722
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102723
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102800
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102801
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102802
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102803
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102804
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102805
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102806
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102807
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102808
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102809
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102810
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102811
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102812
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102813
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102814
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102815
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102816
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102817
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102818
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015012220
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015012221
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015012222
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015012703
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015012704
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015012820
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015012821
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015012822
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015012905
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015012918
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015013123
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015020120
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015020121
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015020201
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015020501
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015020605
+10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2015020806
+
+[2015-02-12 21:56:56] [0x00007f2987515780] [error]     [file:../src/fileutil.cpp,line:147] file is not exists.(./.undone)
+[2015-02-12 21:56:56] [0x00007f2987515780] [error]     [file:../src/tableloader.cpp,line:168] Failed to rename (oldPath=./.undone, newPath=./.undone.1423749416)
+[2015-02-12 21:56:56] [0x00007f2987515780] [info]    Succeeded to initialize tableloader.
+[2015-02-12 21:56:56] [0x00007f2987515780] [info]    Close connection.
+[2015-02-12 21:56:56] [0x00007f29831aa700] [info]    loader thread(0) is running...
+[2015-02-12 21:56:56] [0x00007f2981f9c700] [info]    loader thread(0) hdfswriter thread(0) is running...
+[2015-02-12 21:56:56] [0x00007f298279d700] [info]    loader thread(0) mysqlreader thread(0) is running...
+[2015-02-12 21:56:56] [0x00007f298279d700] [info]    reading table(10.150.140.111|3306|letvjdatacluster|letvjdatacluster|jdata15|base_bw2014102600)
+[2015-02-12 21:56:56] [0x00007f298279d700] [info]    Initializing MySql connect...
+[2015-02-12 21:56:56] [0x00007f298279d700] [info]    Succeeded to initialize MySql connect.
+[2015-02-12 21:56:56] [0x00007f298279d700] [info]    Succeeded to connect to database.(host:10.150.140.111,port:3306,user:letvjdatacluster,password:letvjdatacluster,db:jdata15.)
+[2015-02-12 21:56:56] [0x00007f298279d700] [info]    Query Succeeded.(select count(*) from base_bw2014102600)
+[2015-02-12 21:56:56] [0x00007f298279d700] [info]    Query Succeeded.(select * from base_bw2014102600)
