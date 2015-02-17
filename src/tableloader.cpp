@@ -70,14 +70,14 @@ void TableLoader::init()
   
   MySql mysql;
   if( mysql.connect(
-    "117.121.54.245",
-    "3435",
-    "letvjdatacluster",
-    "letvjdatacluster",
-    "jdatawebold"
+    "xxx.xxx.xxx.xxx",/*ip*/
+    "xxxx",/*port*/
+    "xx",/*user*/
+    "xx",/*passwd*/
+    "xx"/*db*/
     ) == NULL )
   {
-    LOG_ERR << "Failed to connect to database.(" << "117.121.54.245,3435,letvjdatacluster,letvjdatacluster,jdatawebold" << ")";
+    LOG_ERR << "Failed to connect to database.(" << "xx" << ")";
     return;
   }
 

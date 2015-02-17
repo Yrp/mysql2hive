@@ -1,18 +1,19 @@
 #include "logger.hpp"
-void LogInit() {
-
+void LogInit()
+{
   typedef sinks::asynchronous_sink<sinks::text_file_backend> TextSink;
   
   logging::formatter formatter =
     expr::stream
-<< expr::format_named_scope("Scopes", boost::log::keywords::format = "%n (%f : %l)") 
-      << "["
+    << "["
     << expr::format_date_time< boost::posix_time::ptime >("TimeStamp", "%Y-%m-%d %H:%M:%S")
     << "] ["
     << expr::attr<attrs::current_thread_id::value_type >("ThreadID")
     << "] ["
     << expr::attr<tracker_severity_level>("Severity")
-    << "]    "
+    << "] "
+    << expr::format_named_scope("Scope", boost::log::keywords::format = "[File: %f, Line: %l]")
+    << "    "
     << expr::smessage;
 
   // init file_sink
@@ -25,17 +26,17 @@ void LogInit() {
   boost::shared_ptr<TextSink> file_sink(new TextSink(backend1));
   file_sink->set_formatter(formatter);
   //file_sink->set_filter(expr::attr<tracker_severity_level>("Severity") >= trace);
-  file_sink->set_filter(expr::attr<tracker_severity_level>("Severity") >= mytrace);
+  file_sink->set_filter(expr::attr<tracker_severity_level>("Severity") >= mtrace);
   logging::core::get()->add_sink(file_sink);
     
   ///init console log
   auto console_sink = logging::add_console_log();
   console_sink->set_formatter(formatter);
   //console_sink->set_filter(expr::attr<tracker_severity_level>("Severity") >= trace);
-  console_sink->set_filter(expr::attr<tracker_severity_level>("Severity") >= mytrace);
+  console_sink->set_filter(expr::attr<tracker_severity_level>("Severity") >= mtrace);
   logging::core::get()->add_sink(console_sink);
-    logging::core::get()->add_global_attribute("Scope", attrs::named_scope()); 
   logging::add_common_attributes();
+	logging::core::get()->add_global_attribute("Scope", attrs::named_scope());
 }
 
 template< typename CharT, typename TraitsT >

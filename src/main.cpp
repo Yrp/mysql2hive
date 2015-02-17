@@ -25,8 +25,7 @@ int main(int argc, char *argv[])
 //  Config::Instance().load(std::string(argv[2]));//初始化配置
 //  TableLoader::Instance().init();//加载需要导出的表名
 //  LoadManager::Instance().startup();//运行
-BOOST_LOG_FUNCTION();
-LOG_INFO << "hello";
+LOG_ERR << "hello";
 
 
   return 0;
